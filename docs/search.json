@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "examples/slides-html.html#quarto",
+    "href": "examples/slides-html.html#quarto",
+    "title": "Quarto Presentation",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "examples/slides-html.html#bullets",
+    "href": "examples/slides-html.html#bullets",
+    "title": "Quarto Presentation",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "examples/slides-html.html#code",
+    "href": "examples/slides-html.html#code",
+    "title": "Quarto Presentation",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Crafting Effective Scientific Presentations (CESP)",
+    "section": "",
+    "text": "Link to the Moodle page. However, all the relevant materials are always linked in this website."
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "Crafting Effective Scientific Presentations (CESP)",
+    "section": "Slides",
+    "text": "Slides\n\nCrafting Effective Scientific Presentations"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

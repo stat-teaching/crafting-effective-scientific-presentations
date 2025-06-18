@@ -1,13 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "crafting-effective-scientific-presentations"
+  title: "cesp"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: home
 
 format:
   html:
@@ -17,5 +17,12 @@ format:
     css: styles.css
     toc: true
 
+execute:
+  freeze: auto  # re-render only when source changes
 
-
+author: 
+  - name: "Filippo Gambarota"
+    email: filippo.gambarota@unipd.it
+    twitter: fgambarota
+    github: filippogambarota
+    orcid: "0000-0002-6666-1747"
