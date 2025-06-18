@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "crafting-effective-scientific-presentations",
+    "section": "",
+    "text": "Link to the Moodle page. However, all the relevant materials are always linked in this website."
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "crafting-effective-scientific-presentations",
+    "section": "Slides",
+    "text": "Slides\n\nCrafting Effective Scientific Presentations"
+  },
+  {
+    "objectID": "examples/slides-default.html#quarto",
+    "href": "examples/slides-default.html#quarto",
+    "title": "Quarto Presentation",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "examples/slides-default.html#bullets",
+    "href": "examples/slides-default.html#bullets",
+    "title": "Quarto Presentation",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "examples/slides-default.html#code",
+    "href": "examples/slides-default.html#code",
+    "title": "Quarto Presentation",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "examples/slides-minimal.html#quarto",
+    "href": "examples/slides-minimal.html#quarto",
+    "title": "Minimal Quarto Presentation",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "examples/slides-minimal.html#bullets",
+    "href": "examples/slides-minimal.html#bullets",
+    "title": "Minimal Quarto Presentation",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "examples/slides-minimal.html#code",
+    "href": "examples/slides-minimal.html#code",
+    "title": "Minimal Quarto Presentation",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#quarto-examples",
+    "href": "index.html#quarto-examples",
+    "title": "crafting-effective-scientific-presentations",
+    "section": "Quarto Examples",
+    "text": "Quarto Examples\n\nQuarto (HTML) Presentation\nQuarto Minimal (HTML) Presentation"
+  },
+  {
+    "objectID": "examples/slides-default.html",
+    "href": "examples/slides-default.html",
+    "title": "Quarto Presentation",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/.\n\n\n\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code\n\n\n\n\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2"
+  }
+]

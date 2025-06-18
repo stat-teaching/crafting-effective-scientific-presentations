@@ -1,0 +1,14 @@
+---
+title: "crafting-effective-scientific-presentations"
+---
+
+Link to the [Moodle](https://psico.elearning.unipd.it/course/view.php?id=5773) page. However, all the relevant materials are always linked in this website.
+
+## Slides
+
+- [Crafting Effective Scientific Presentations](https://docs.google.com/presentation/d/1mK2NTes_xDv5mr5-XzqZwqP4TbyEukuXGXYbyRh0ZJo/edit?usp=sharing)
+
+## Quarto Examples
+
+- [Quarto (HTML) Presentation](examples/slides-default.qmd)
+- [Quarto Minimal (HTML) Presentation](examples/slides-minimal.qmd)
