@@ -9,3 +9,7 @@ Link to the [Moodle](https://psico.elearning.unipd.it/course/view.php?id=5773) p
 - [Crafting Effective Scientific Presentations](https://docs.google.com/presentation/d/1mK2NTes_xDv5mr5-XzqZwqP4TbyEukuXGXYbyRh0ZJo/edit?usp=sharing)
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvTz3D69mmCUODrvmR2RFltDb9jt0OqQDJnyIx5DsB30yBHh8HDyDPxKRHldjTcvUUDa5iWcaPygZn/pubembed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Examples
+
+- [`ggplot2` theming features](examples/ggplot2-themes.qmd)
