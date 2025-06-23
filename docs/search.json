@@ -7,25 +7,60 @@
     "text": "About this site"
   },
   {
-    "objectID": "examples/slides-html.html#quarto",
-    "href": "examples/slides-html.html#quarto",
+    "objectID": "examples/slides-example.html#markdown",
+    "href": "examples/slides-example.html#markdown",
     "title": "Quarto Presentation",
-    "section": "Quarto",
-    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+    "section": "Markdown",
+    "text": "Markdown"
   },
   {
-    "objectID": "examples/slides-html.html#bullets",
-    "href": "examples/slides-html.html#bullets",
+    "objectID": "examples/slides-example.html#figures",
+    "href": "examples/slides-example.html#figures",
+    "title": "Quarto Presentation",
+    "section": "Figures",
+    "text": "Figures\nYou can use R to directly include figures without external files.\n\nlibrary(ggplot2)\niris |&gt; \n    ggplot(aes(x = Sepal.Length, y = Petal.Width, color = Species)) +\n    geom_point(size = 3) +\n    geom_smooth(method = \"lm\", se = FALSE) +\n    theme_minimal(20) +\n    theme(legend.position = \"bottom\")"
+  },
+  {
+    "objectID": "examples/slides-example.html#figures-1",
+    "href": "examples/slides-example.html#figures-1",
+    "title": "Quarto Presentation",
+    "section": "Figures",
+    "text": "Figures\nYou can use R to directly include figures without external files."
+  },
+  {
+    "objectID": "examples/slides-example.html#citations",
+    "href": "examples/slides-example.html#citations",
+    "title": "Quarto Presentation",
+    "section": "Citations",
+    "text": "Citations\nYou can easily include citations using the BibTeX format. For example you can cite using [@key], thus [@Klau2023-sb] will be rendered as (Klau et al., 2023). In addition there will be a references slide at the end of the presentation."
+  },
+  {
+    "objectID": "examples/slides-example.html#bullets",
+    "href": "examples/slides-example.html#bullets",
     "title": "Quarto Presentation",
     "section": "Bullets",
-    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+    "text": "Bullets\nYou can easily include bullets (with and without numbering) using:\n- element 1\n- element 2\n- element 3\nOr\n1. element 1\n2. element 2\n3. element 3"
   },
   {
-    "objectID": "examples/slides-html.html#code",
-    "href": "examples/slides-html.html#code",
+    "objectID": "examples/slides-example.html#bullets-1",
+    "href": "examples/slides-example.html#bullets-1",
     "title": "Quarto Presentation",
-    "section": "Code",
-    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+    "section": "Bullets",
+    "text": "Bullets\nYou can easily include bullets (with and without numbering) using:\n\nelement 1\nelement 2\nelement 3\n\nOr\n\nelement 1\nelement 2\nelement 3"
+  },
+  {
+    "objectID": "examples/slides-example.html#bullets-2",
+    "href": "examples/slides-example.html#bullets-2",
+    "title": "Quarto Presentation",
+    "section": "Bullets",
+    "text": "Bullets\nYou can also set the incremental bullets:\n\n\nelement 1\nelement 2\nelement 3\n\n\n\nOr\n\n\nelement 1\nelement 2\nelement 3"
+  },
+  {
+    "objectID": "examples/slides-example.html#references",
+    "href": "examples/slides-example.html#references",
+    "title": "Quarto Presentation",
+    "section": "References",
+    "text": "References\n\n\n\n\nKlau, S., Felix, Patel, C. J., Ioannidis, J. P. A., Boulesteix, A.-L., & Hoffmann, S. (2023). Comparing the vibration of effects due to model, data pre-processing and sampling uncertainty on a large data set in personality psychology. Meta-Psychology, 7. https://doi.org/10.15626/mp.2020.2556"
   },
   {
     "objectID": "index.html",

@@ -1,0 +1,104 @@
+---
+title: "Quarto Presentation"
+subtitle: "Example"
+institute: University of Padova
+bibliography: "https://raw.githubusercontent.com/filippogambarota/bib-database/main/references.bib"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
+author: 
+  - name: "Filippo Gambarota"
+    email: filippo.gambarota@unipd.it
+    github: filippogambarota
+    orcid: "0000-0002-6666-1747"
+format: 
+    revealjs: default
+#    minimal-revealjs: default
+#    beamer: default
+---
+
+# Section
+
+## Markdown
+
+## Figures
+
+You can use `R` to directly include figures without external files.
+
+```{r}
+#| echo: true
+#| label: ggplot-example
+#| eval: false
+library(ggplot2)
+iris |> 
+    ggplot(aes(x = Sepal.Length, y = Petal.Width, color = Species)) +
+    geom_point(size = 3) +
+    geom_smooth(method = "lm", se = FALSE) +
+    theme_minimal(20) +
+    theme(legend.position = "bottom")
+```
+
+## Figures
+
+You can use `R` to directly include figures without external files.
+
+```{r}
+#| label: ggplot-example
+#| fig-height: 5
+```
+
+## Citations
+
+You can easily include citations using the BibTeX format. For example you can cite using `[@key]`, thus `[@Klau2023-sb]` will be rendered as [@Klau2023-sb]. In addition there will be a references slide at the end of the presentation.
+
+## Bullets
+
+You can easily include bullets (with and without numbering) using:
+
+```
+- element 1
+- element 2
+- element 3
+```
+
+Or
+
+```
+1. element 1
+2. element 2
+3. element 3
+```
+
+## Bullets
+
+You can easily include bullets (with and without numbering) using:
+
+- element 1
+- element 2
+- element 3
+
+Or
+
+1. element 1
+2. element 2
+3. element 3
+
+## Bullets
+
+You can also set the incremental bullets:
+
+:::{.incremental}
+- element 1
+- element 2
+- element 3
+:::
+
+. . .
+
+Or
+
+:::{.incremental}
+1. element 1
+2. element 2
+3. element 3
+:::
+
+## References

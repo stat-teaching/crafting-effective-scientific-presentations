@@ -28,7 +28,92 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -128,6 +213,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Quarto Presentation</h1>
+  <p class="subtitle">Example</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -137,7 +223,10 @@ Filippo Gambarota <a href="https://orcid.org/0000-0002-6666-1747" class="quarto-
 <div class="quarto-title-author-email">
 <a href="mailto:filippo.gambarota@unipd.it">filippo.gambarota@unipd.it</a>
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            University of Padova
+          </p>
+    </div>
 </div>
 
 </section>
@@ -146,28 +235,87 @@ Filippo Gambarota <a href="https://orcid.org/0000-0002-6666-1747" class="quarto-
 <h1>Section</h1>
 
 </section>
-<section id="quarto" class="slide level2">
-<h2>Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <a href="https://quarto.org/docs/presentations/" class="uri">https://quarto.org/docs/presentations/</a>.</p>
+<section id="markdown" class="slide level2">
+<h2>Markdown</h2>
+</section>
+<section id="figures" class="slide level2">
+<h2>Figures</h2>
+<p>You can use <code>R</code> to directly include figures without external files.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a></a>iris <span class="sc">|&gt;</span> </span>
+<span id="cb1-3"><a></a>    <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Petal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
+<span id="cb1-4"><a></a>    <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb1-5"><a></a>    <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb1-6"><a></a>    <span class="fu">theme_minimal</span>(<span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb1-7"><a></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="figures-1" class="slide level2">
+<h2>Figures</h2>
+<p>You can use <code>R</code> to directly include figures without external files.</p>
+
+<img data-src="slides-example_files/figure-revealjs/ggplot-example-1.png" width="960" class="r-stretch"></section>
+<section id="citations" class="slide level2">
+<h2>Citations</h2>
+<p>You can easily include citations using the BibTeX format. For example you can cite using <code>[@key]</code>, thus <code>[@Klau2023-sb]</code> will be rendered as <span class="citation" data-cites="Klau2023-sb">(<a href="#/references" role="doc-biblioref" onclick="">Klau et al., 2023</a>)</span>. In addition there will be a references slide at the end of the presentation.</p>
 </section>
 <section id="bullets" class="slide level2">
 <h2>Bullets</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes:</p>
-<ul>
-<li>Content authored with markdown</li>
-<li>Output from executable code</li>
-</ul>
+<p>You can easily include bullets (with and without numbering) using:</p>
+<pre><code>- element 1
+- element 2
+- element 3</code></pre>
+<p>Or</p>
+<pre><code>1. element 1
+2. element 2
+3. element 3</code></pre>
 </section>
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="bullets-1" class="slide level2">
+<h2>Bullets</h2>
+<p>You can easily include bullets (with and without numbering) using:</p>
+<ul>
+<li>element 1</li>
+<li>element 2</li>
+<li>element 3</li>
+</ul>
+<p>Or</p>
+<ol type="1">
+<li>element 1</li>
+<li>element 2</li>
+<li>element 3</li>
+</ol>
+</section>
+<section id="bullets-2" class="slide level2">
+<h2>Bullets</h2>
+<p>You can also set the incremental bullets:</p>
+<div>
+<ul>
+<li class="fragment">element 1</li>
+<li class="fragment">element 2</li>
+<li class="fragment">element 3</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Or</p>
+<div>
+<ol type="1">
+<li class="fragment">element 1</li>
+<li class="fragment">element 2</li>
+<li class="fragment">element 3</li>
+</ol>
 </div>
 </div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Klau2023-sb" class="csl-entry" role="listitem">
+Klau, S., Felix, Patel, C. J., Ioannidis, J. P. A., Boulesteix, A.-L., &amp; Hoffmann, S. (2023). Comparing the vibration of effects due to model, data pre-processing and sampling uncertainty on a large data set in personality psychology. <em>Meta-Psychology</em>, <em>7</em>. <a href="https://doi.org/10.15626/mp.2020.2556">https://doi.org/10.15626/mp.2020.2556</a>
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
